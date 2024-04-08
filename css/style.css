@@ -1,0 +1,213 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body
+{
+
+    background-color: rgba(89, 3, 2, 0.235);
+    padding: 20px;
+}
+
+.navbar
+{
+    /* background-color: red; */
+    padding: 15px;
+    position:absolute;
+    right: 20px;
+    
+}
+
+
+.navbar a
+{ 
+    border-style:solid;
+    background-color: rgba(255, 0, 0, 0.285);
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar a:hover{
+background-color: rgba(255, 0, 0, 0.267)
+}
+
+h1{
+    font-size: 30px;
+}
+
+/* --------------------------nav--------- */
+
+.menu
+{
+    background-color: rgba(255, 0, 0, 0.285);
+    border-radius: 10px;
+    width: 100dvh;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    
+}
+
+.menu .bv
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.menu p
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* ---------------------formulaire---------- */
+
+.menu .formulaire{
+    /* background-color: rgb(43, 217, 226); */
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+.menu .formulaire input[type="submit"]
+{
+    
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-color: rgba(255, 0, 0, 0.399); 
+}
+
+.menu .formulaire input[id="nom_du_donateur"]
+{
+    border-radius: 10px;
+    margin-right: 220px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+
+.menu .formulaire input[id="nom_figure"]
+{
+    border-radius: 10px;
+    margin-right: 190px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+
+.menu .formulaire input[id="nom_logo"]
+{
+    border-radius: 10px;
+    margin-right: 170px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+
+
+
+.menu .formulaire input[id="nom_du_fond"]
+{
+    border-radius: 10px;
+    margin-right: 190px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+
+.menu .formulaire textarea[id="code_SVG"]
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+.menu .formulaire option
+{
+    border-radius: 10px;
+    margin-right: 190px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+
+/* ------------------case choix--------------------------- */
+
+
+.menu .formulaire select[id="choixFond"],
+.menu .formulaire select[id="choixFigure"] {
+    border-radius: 5px;
+    margin-right: 160px;
+    margin-bottom: 0px;
+    padding: 0px 20px;
+}
+
+/* .menu .formulaire textarea[name="code_SVG"]
+{ */
+    /* margin-Z: 20px;
+ } */
+
+/* -----------------acceuil-- */
+
+.bienvenue
+{
+    /* background-color: red; */
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-left: 10px;
+    
+    color: white;
+}
+
+/* --------------------- */
+.navbar_logo
+{
+    background-color: red;
+    padding: 15px;
+    position:absolute;
+    right: 20px;
+}
+
+    /* ----------------lien du créat logo-------------------------- */
+
+
+.lien p ,
+a{
+    font-size: 15px;
+
+}
+
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Couleur de fond verte pour Valider */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+input[type="submit"][name="refuser"] {
+    background-color: #FF3333; /* Couleur de fond rouge pour Refuser */
+}
+
