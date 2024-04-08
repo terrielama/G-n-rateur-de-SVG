@@ -2,7 +2,7 @@
 
 Par ou commencer ?
 
-Creez une nouvelle base de données sur phpMyAdmin et importer le fichier formulaire.sql qui se trouve dans le dossier Information.
+Creez une nouvelle base de données sur phpMyAdmin et importer le fichier "formulaire.sql" qui se trouve dans le dossier Information.
 
 ------------------------------------------------------------------------------------------
 
